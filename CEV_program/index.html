@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미래를 코딩하세요! | 학교 맞춤형 코딩 교육 프로그램</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <!-- <a href="#" class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>코스모에듀벤처</span>
+                </a> -->
+                <a href="#" class="logo">
+                    <img src="img\logo.png" alt="코스모에듀벤처 로고" width=10% height=10%>
+                    <span> 코스모에듀벤처</span>
+                </a>
+                <nav class="nav-menu" id="navMenu">
+                    <a href="about.html" class="nav-link">소개</a>
+                    <a href="course.html" class="nav-link">프로그램</a>
+                    <a href="teacher.html" class="nav-link">교원연수</a>
+                    <a href="#mentors" class="nav-link">멘토</a>
+                    <a href="#reviews" class="nav-link">후기</a>
+                    <a href="#apply" class="nav-link">신청</a>
+                </nav>
+                <div class="mobile-toggle" id="mobileToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">상상을 현실로 <br> 바꾸는 미래교육!</h1>
+                        <p class="hero-subtitle">
+                            멈추지 않는 성장의 즐거움, 코딩으로 경험하세요. <br> 배울수록 더 넓어지는 세상이 당신을 기다립니다.
+                        </p>
+                        <a href="#apply" class="btn btn-primary">지금 신청하기</a>
+                    </div>
+                    <div class="hero-img">
+                        <img src="img\hero_img.jpg" alt="코딩 교육 일러스트">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <!-- <h2 class="section-title">왜 코스모에듀벤처인가?</h2> -->
+                <h2 class="section-title">미래 교육의 새로운 페러다임</h2>
+                <p class="section-subtitle">
+                    <!-- 코스모에듀벤처는 맞춤형 코딩 교육 프로그램으로 전문적인 지원을 통해 학생들의 성공적인 미래를 설계합니다. -->
+                    급변하는 디지털 시대에서 미래 교육은 단순 지식 전달을 넘어 디지털 리터러시, 컴퓨팅 사고력, 창의적 문제해결, 협업 능력, 비판적 사고를 길러야 합니다. 코스모에듀벤처는 이러한 핵심 역량 함양을 통해 개인의 성공과 지속가능한 사회 발전을 위한 미래 교육을 제공합니다.
+                </p>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="feature-title">맞춤형 커리큘럼</h3>
+                        <p class="feature-text">
+                            개인, 단체, 기관의 요구사항과 학습자의 수준을 고려한 최적의 커리큘럼을 제공합니다.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3 class="feature-title">프로젝트 중심 교육</h3>
+                        <p class="feature-text">
+                            실제 프로젝트 경험을 통해 깊이 있는 이해와 실질적인 역량을 동시에 키웁니다.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 class="feature-title">협업과 소통</h3>
+                        <p class="feature-text">
+                            팀 프로젝트와 그룹 활동을 통한 협업 능력과 소통 능력을 기릅니다.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3 class="feature-title">최신 기술 경험</h3>
+                        <p class="feature-text">
+                            빠르게 변화하는 환경에 맞춰 AI, 로봇 등 다양한 최신 기술을 경험하며 미래의 역량을 키웁니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="popup-overlay">
+                <div class="popup-content">
+                    <div class="popup-close"><i class="fas fa-times"></i></div>
+                    <h3 class="popup-title"></h3>
+                    <p class="popup-description"></p>
+                    <ul class="popup-list"></ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="mentors" class="mentors">
+            <div class="container">
+                <h2 class="section-title">최고의 멘토진</h2>
+                <p class="section-subtitle">
+                    코스모에듀벤처의 멘토들은 다양한 분야의 풍부한 경험과 뛰어난 실력을 겸비한 전문가들입니다.
+                </p>
+                <div class="mentor-grid">
+                    <div class="mentor-card">
+                        <div class="mentor-img">
+                            <img src="img\mentor1.png" alt="멘토1">
+                        </div>
+                        <div class="mentor-info">
+                            <h3 class="mentor-name">아이유</h3>
+                            <ul class="mentor-desc">
+                                <li>AI 교육 전문가</li>
+                                <li>데이터분석</li>
+                                <li>머신러닝</li>
+                                <li>딥러닝</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mentor-card">
+                        <div class="mentor-img">
+                            <img src="https://placehold.co/400x300/EEE/31343C?text=Mentor+2&font=Montserrat" alt="멘토2">
+                        </div>
+                        <div class="mentor-info">
+                            <h3 class="mentor-name">이멘토</h3>
+                            <ul class="mentor-desc">
+                                <li>AI 교육 전문가</li>
+                                <li>AI 수학</li>
+                                <li>AI 활용</li>
+                                <li>머신러닝</li>
+                                <li>딥러닝</li>
+                            </ul>
+                            <!-- <p class="mentor-desc">Back-End 개발 전문가</p> -->
+                        </div>
+                    </div>
+                    <div class="mentor-card">
+                        <div class="mentor-img">
+                            <img src="https://placehold.co/400x300/EEE/31343C?text=Mentor+3&font=Montserrat" alt="멘토3">
+                        </div>
+                        <div class="mentor-info">
+                            <h3 class="mentor-name">박멘토</h3>
+                            <ul class="mentor-desc">
+                                <li>웹 개발 교육 전문가</li>
+                                <li>웹 개발</li>
+                                <li>데이터베이스</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mentor-card">
+                        <div class="mentor-img">
+                            <img src="https://placehold.co/400x300/EEE/31343C?text=Mentor+4&font=Montserrat" alt="멘토4">
+                        </div>
+                        <div class="mentor-info">
+                            <h3 class="mentor-name">최멘토</h3>
+                            <ul class="mentor-desc">
+                                <li>AI 교육 전문가</li>
+                                <li>머신러닝</li>
+                                <li>딥러닝</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title">생생한 후기</h2>
+                <p class="section-subtitle">
+                    코스모에듀벤처와 함께한 학생들의 성장 스토리를 확인하세요.
+                </p>
+                <div class="review-slider">
+                    <div class="review-slider-track">
+                        <!-- 원본 카드들 -->
+                        <div class="review-card">
+                            <p class="review-content">
+                                처음에는 코딩이 어려울 것 같아 걱정했는데, 멘토님의 체계적인 지도 덕분에 기초부터 차근차근 배울 수 있었어요. 특히 파이썬으로 만든 첫 게임 프로젝트는 잊지 못할 경험이었습니다!
+                            </p>
+                            <p class="review-author">김○○ 학생 | 중학교 2학년</p>
+                        </div>
+                        <div class="review-card">
+                            <p class="review-content">
+                                코딩에 대한 막연한 두려움이 있었는데, 실습 위주의 수업과 친절한 설명 덕분에 이제는 자신감이 생겼어요. 웹 개발 프로젝트를 통해 제 아이디어를 실현할 수 있어서 정말 뿌듯했습니다.
+                            </p>
+                            <p class="review-author">박○○ 학생 | 고등학교 1학년</p>
+                        </div>
+                        <div class="review-card">
+                            <p class="review-content">
+                                방과후 활동으로 시작한 코딩이 이제는 제 진로가 되었어요. AI와 데이터 사이언스 수업은 특히 흥미로웠고, 실제 데이터를 다루며 문제를 해결하는 과정이 매우 재미있었습니다.
+                            </p>
+                            <p class="review-author">이○○ 학생 | 고등학교 3학년</p>
+                        </div>
+                        <div class="review-card">
+                            <p class="review-content">
+                                게임 개발에 관심이 많았는데, 이론부터 실제 게임 제작까지 배울 수 있어서 좋았어요. Unity를 사용한 프로젝트는 제가 게임 개발자의 꿈을 키우는 계기가 되었습니다.
+                            </p>
+                            <p class="review-author">최○○ 학생 | 고등학교 2학년</p>
+                        </div>
+                        <div class="review-card">
+                            <p class="review-content">
+                                초등학생도 쉽게 이해할 수 있게 설명해주셔서 좋았어요. 스크래치로 시작해서 점점 어려운 것도 도전하게 되었고, 이제는 간단한 앱도 만들 수 있게 되었답니다!
+                            </p>
+                            <p class="review-author">정○○ 학생 | 초등학교 6학년</p>
+                        </div>
+                        <div class="review-card">
+                            <p class="review-content">
+                                팀 프로젝트를 통해 다른 학교 친구들과 협업하는 법을 배웠어요. 서로 다른 아이디어를 공유하고 함께 문제를 해결하며 많이 성장할 수 있었습니다.
+                            </p>
+                            <p class="review-author">강○○ 학생 | 중학교 3학년</p>
+                        </div>
+                        <div class="review-card">
+                            <p class="review-content">
+                                처음에는 여학생이 많이 없어서 걱정했는데, 성별에 관계없이 모두가 평등하게 배울 수 있는 환경이 정말 좋았어요. 특히 AI 프로젝트는 제 진로 결정에 큰 도움이 되었습니다.
+                            </p>
+                            <p class="review-author">한○○ 학생 | 고등학교 2학년</p>
+                        </div>
+                        <div class="review-card">
+                            <p class="review-content">
+                                1년 동안의 교육과정을 통해 코딩의 기초부터 실무까지 배울 수 있었어요. 현업 개발자 멘토님들의 실제 경험담과 조언이 진로 선택에 큰 도움이 되었습니다.
+                            </p>
+                            <p class="review-author">임○○ 학생 | 고등학교 3학년</p>
+                        </div>
+                        
+                        <!-- 복제된 카드들 (무한 슬라이드를 위해) -->
+                        <div class="review-card">
+                            <p class="review-content">
+                                처음에는 코딩이 어려울 것 같아 걱정했는데, 멘토님의 체계적인 지도 덕분에 기초부터 차근차근 배울 수 있었어요. 특히 파이썬으로 만든 첫 게임 프로젝트는 잊지 못할 경험이었습니다!
+                            </p>
+                            <p class="review-author">김○○ 학생 | 중학교 2학년</p>
+                        </div>
+                        <!-- ... duplicate other review cards ... -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="apply" class="apply">
+            <div class="container">
+                <div class="apply-content">
+                    <h2 class="apply-title">지금 바로 신청하세요!</h2>
+                    <p class="apply-subtitle">
+                        코스모에듀벤처에서 여러분의 코딩 꿈을 펼치세요.
+                    </p>
+                    <form id="contactForm" method="POST">
+                        <div class="form-group">
+                            <label for="name">이름</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="이름을 입력해주세요." required>
+                            <div class="form-error" id="nameError">이름을 입력해주세요.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="affiliation">소속 (학교)</label>
+                            <input type="text" id="affiliation" name="affiliation" class="form-control" placeholder="소속 학교를 입력해주세요." required>
+                            <div class="form-error" id="affiliationError">소속 (학교)을 입력해주세요.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">연락처</label>
+                            <input type="tel" id="phone" name="phone" class="form-control" placeholder="연락처를 입력해주세요. (010-1234-5678)" required>
+                            <div class="form-error" id="phoneError">연락처를 입력해주세요.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">이메일</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="이메일 주소를 입력해주세요." required>
+                            <div class="form-error" id="emailError">올바른 이메일 주소를 입력해주세요.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">문의 내용</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="문의 내용을 입력해주세요." required></textarea>
+                            <div class="form-error" id="messageError">문의 내용을 입력해주세요.</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submitButton">전송하기</button>
+                        <div id="formStatus"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>코스모에듀벤처</span>
+                </a>
+                <div class="footer-contact">
+                    <p>대표번호 : 070-4337-4337</p>
+                    <p>이메일 : cosmoedu@cosmoedu.co.kr</p>
+                    
+                </div>
+                <p class="footer-text">
+                    © 2024 코스모에듀벤처. All rights reserved.
+                </p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup-content">
+            <span class="popup-close" id="popupClose">&times;</span>
+            <h2 class="popup-title">프로그램 세부 정보</h2>
+            <p class="popup-description">프로그램에 대한 자세한 정보를 확인할 수 있습니다.</p>
+            <ul class="popup-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
