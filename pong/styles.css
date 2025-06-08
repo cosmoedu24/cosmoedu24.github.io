@@ -4,6 +4,25 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* 헤더 스타일 */
+.navbar {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* 메인 컨테이너 조정 */
+.container.mt-5 {
+    margin-top: 2rem !important;
 }
 
 /* 컨테이너 스타일 */
